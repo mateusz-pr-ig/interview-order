@@ -3,7 +3,7 @@
 ## 🔁 Task 1 – Stream Operations
 Implement logic using **Java Streams** based on TDD approach.
 
-## ✈️ Task 1 – Airline Order
+## ✈️ Task 2 – Airline Order
 You are given a simplified `Order` model for an airline booking system.  
 The code includes missing business logic and poor design choices.
 
