@@ -50,6 +50,11 @@ public class Order {
         this.orderDate = orderDate;
     }
 
+    public double getTotalPrice() {
+        double totalPrice = 0;
+        return totalPrice;
+    }
+
     public Order reserveAndPayForOrder(Order order, double paidPrice) {
 
         OrderStatus reservedOrder = new OrderStatus();

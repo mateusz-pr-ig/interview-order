@@ -49,6 +49,6 @@ class OrderServiceTest {
         Order result = order.reserveAndPayForOrder(order, 10.4);
 
         assertThat(result.getStatus()).isEqualTo(paidOrderStatus);
-        //assertThat(order.getTotalPrice()).isEqualTo(20.8);
+        assertThat(order.getTotalPrice()).isEqualTo(20.8);
     }
 }

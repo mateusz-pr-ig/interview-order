@@ -2,8 +2,6 @@ package com.order.interview.task1;
 
 import java.util.*;
 
-import static java.util.stream.Collectors.groupingBy;
-
 public class Interview {
 
     public long countWordsStartsWithA(String sentence) {
